@@ -1,5 +1,7 @@
 set nocompatible
 
+call pathogen#infect()
+
 filetype plugin on
 filetype indent on
 
@@ -55,3 +57,4 @@ set shell=bash
 set list
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 hi NonText ctermfg=2 guifg=red
+set t_Co=256

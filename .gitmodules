@@ -1,0 +1,6 @@
+[submodule "vim-slim"]
+	path = vim-slim
+	url = git://github.com/bbommarito/vim-slim.git
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = git://github.com/bbommarito/vim-slim.git

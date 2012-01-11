@@ -39,7 +39,7 @@ set spell
 set history=1000
 
 set cursorline
-hi cursorline guibg=#333333
+hi CursorLine guibg=#333333 ctermbg=235 cterm=NONE
 hi CoursorColumn guibg=#333333
 
 set showmatch

@@ -51,13 +51,15 @@ set wildmode=list:longest:full
 
 set showcmd
 set laststatus=2
-set background=dark
 set scrolloff=5
 set shell=bash
 
 set list
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 hi NonText ctermfg=2 guifg=red
-set t_Co=256
 
 set exrc
+
+set t_Co=256
+set background=dark
+colorschem solarized

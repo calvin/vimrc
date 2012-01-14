@@ -22,3 +22,6 @@
 [submodule "bundle/pyfalkes-vim"]
 	path = bundle/pyfalkes-vim
 	url = https://github.com/kevinw/pyflakes-vim
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git

@@ -47,6 +47,9 @@ set pastetoggle=<F12>
 "
 set fileformat=unix
 set encoding=utf-8 fileencodings=ucs-bom,utf-8
+set nobackup
+set noswapfile
+set wildignore=*.pyc
 
 "
 " Indentation
@@ -75,6 +78,7 @@ set showcmd
 set laststatus=2
 set scrolloff=5
 set shell=bash
+set title
 
 set t_Co=256
 set background=dark
